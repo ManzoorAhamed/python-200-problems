@@ -16,4 +16,3 @@ print(str_var)
 s = ['a', 'b', 'c', 'd']
 str1 = ''.join(s)   #.join is function which converts list into string
 print(str1)
-
