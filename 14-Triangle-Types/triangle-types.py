@@ -18,7 +18,7 @@ elif a == b or a == c:
 else:
     pass
 
-## Solution2 with somw modification
+## Solution2 with some modification
 print("Input lengths of the triangle sides: ")
 x = int(input("x: "))
 y = int(input("y: "))
