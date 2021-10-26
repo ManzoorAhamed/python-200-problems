@@ -5,7 +5,7 @@
 # output
 # {'Green', 'White'}
 
-## Solution
+## Solution  # Not the expected result.
 
 color1 = ["Red", "Green", "Orange", "White"]
 color2 = ["Black", "Green", "White", "Pink"]
@@ -19,6 +19,6 @@ print(color3)
 
 ## Solution 2
 
-color1 = "Red", "Green", "Orange", "White"
+color1 = "Red", "Green", "Orange", "White"      ## what is set in python?
 color2 = "Black", "Green", "White", "Pink"
-print(set(color1) & set(color2))
+print(set(color1) & set(color2))                ## A set is a collection which is unordered, unchangeable, and unindexed. Sets are written with curly brackets.
