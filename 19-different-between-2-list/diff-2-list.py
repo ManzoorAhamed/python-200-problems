@@ -14,4 +14,5 @@ for item in list1:
         diff.append(item)
 print(diff)
 
-#print(set(list1) - set(list2))
+## Solution2   # its a set not list
+print(set(list1) - set(list2))
