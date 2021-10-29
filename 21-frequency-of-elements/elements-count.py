@@ -5,10 +5,8 @@
 # {10: 4, 20: 4, 40: 2, 50: 2, 30: 1}
 
 ## Solution
-
 my_list = [10,10,10,10,20,20,20,20,40,40,50,50,30]
 my_list1 = set(my_list)
-
 final_list = {}
 
 for item in my_list1:
@@ -17,9 +15,9 @@ for item in my_list1:
         if item == item1:
             count+=1
     final_list[item] = count
-
 print(final_list)
 
+## Solution2
 import collections
 my_list = [10,10,10,10,20,20,20,20,40,40,50,50,30]
 print("Original List : ",my_list)
