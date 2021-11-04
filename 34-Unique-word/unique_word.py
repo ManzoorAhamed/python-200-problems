@@ -17,6 +17,6 @@ print(unique_words_string)
 
 ## Solution 2
 items = input("Input comma separated sequence of words")
-words = [word for word in items.split(",")]
-print(words)
-print(",".join(sorted(list(set(words)))))
+words = [word for word in items.split(",")] ## For loop to conver string into the list
+#print(words)
+print(",".join(sorted(list(set(words)))))   ## Removed the duplicate formed list and sorted then finally joined
