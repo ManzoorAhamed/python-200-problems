@@ -23,3 +23,6 @@ sorted_d = sorted(d.items(), key=operator.itemgetter(0))
 print('Dictionary in ascending order by value : ',sorted_d)
 sorted_d = sorted(d.items(), key=operator.itemgetter(0),reverse=True)
 print('Dictionary in descending order by value : ',sorted_d)
+
+## Ref Link
+# https://www.includehelp.com/python/sorting-a-dictionary-in-ascending-and-descending-order-by-key-or-value-in-python.aspx
