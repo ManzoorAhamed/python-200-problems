@@ -19,6 +19,7 @@ final_dic.update(dic3)
 print(final_dic)
 
 ## Solution2
+
 for i in (dic1, dic2, dic3):
     final_dic.update(i)
 print(final_dic)
